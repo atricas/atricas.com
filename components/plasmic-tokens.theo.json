@@ -1,0 +1,49 @@
+{
+  "props": [
+    {
+      "name": "Brand",
+      "type": "color",
+      "value": "rgba(11,166,245,0.77)",
+      "category": "color",
+      "meta": {
+        "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+        "id": "9-V_NTaD813-"
+      }
+    },
+    {
+      "name": "atricas Blue",
+      "type": "color",
+      "value": "#367DCBBF",
+      "category": "color",
+      "meta": {
+        "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+        "id": "jRE1DGozrLL4"
+      }
+    },
+    {
+      "name": "atricas Green",
+      "type": "color",
+      "value": "#6BDF6FBF",
+      "category": "color",
+      "meta": {
+        "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+        "id": "5-6slAPwAaNB"
+      }
+    },
+    {
+      "name": "atricas Pink",
+      "type": "color",
+      "value": "#F25890BF",
+      "category": "color",
+      "meta": {
+        "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+        "id": "c4GqJ_Pt1ean"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
