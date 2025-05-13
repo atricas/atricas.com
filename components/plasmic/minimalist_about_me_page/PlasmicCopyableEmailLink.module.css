@@ -23,7 +23,7 @@
   left: -44px;
   top: 7px;
   flex-shrink: 0;
-  display: none !important;
+  display: none;
 }
 .link {
   display: flex;

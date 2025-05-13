@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -54,6 +54,45 @@
           "cssFilePath": "plasmic/minimalist_about_me_page/PlasmicCopyableEmailLink.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "CktnmCyKNbEc",
+          "name": "MainContent",
+          "type": "managed",
+          "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+          "renderModuleFilePath": "plasmic/minimalist_about_me_page/PlasmicMainContent.tsx",
+          "importSpec": {
+            "modulePath": "MainContent.tsx"
+          },
+          "cssFilePath": "plasmic/minimalist_about_me_page/PlasmicMainContent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "jU6e8T6oRosp",
+          "name": "ContentTitle",
+          "type": "managed",
+          "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+          "renderModuleFilePath": "plasmic/minimalist_about_me_page/PlasmicContentTitle.tsx",
+          "importSpec": {
+            "modulePath": "ContentTitle.tsx"
+          },
+          "cssFilePath": "plasmic/minimalist_about_me_page/PlasmicContentTitle.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wmCnuxcQdxPB",
+          "name": "NewsCard",
+          "type": "managed",
+          "projectId": "ku6Sf4rtBvc4dQ1SyEoEgQ",
+          "renderModuleFilePath": "plasmic/minimalist_about_me_page/PlasmicNewsCard.tsx",
+          "importSpec": {
+            "modulePath": "NewsCard.tsx"
+          },
+          "cssFilePath": "plasmic/minimalist_about_me_page/PlasmicNewsCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -73,7 +112,18 @@
           "moduleFilePath": "plasmic/minimalist_about_me_page/icons/PlasmicIcon__Icon3.tsx"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "id": "f6ygIHOANFmX",
+          "name": "PXL_20250412_175236384 (1).jpg",
+          "filePath": "../public/plasmic/minimalist_about_me_page/images/pxl202504121752363841Jpg.jpg"
+        },
+        {
+          "id": "KXnf2tx4O4OR",
+          "name": "PXL_20241231_225226773.jpg",
+          "filePath": "../public/plasmic/minimalist_about_me_page/images/pxl20241231225226773Jpg.jpg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "",
       "splitsProviderFilePath": "",
@@ -108,6 +158,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.334",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+  "cliVersion": "0.1.338",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.338/dist/plasmic.schema.json"
 }
