@@ -154,7 +154,7 @@ function PlasmicMainContent__RenderFunc(props: {
           displayMaxWidth={"100%"}
           displayMinHeight={"0"}
           displayMinWidth={"0"}
-          displayWidth={"auto"}
+          displayWidth={"100%"}
           loading={"lazy"}
           src={{
             src: "/plasmic/minimalist_about_me_page/images/pxl202504121752363841Jpg.jpg",
