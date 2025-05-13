@@ -60,6 +60,7 @@ import {
 } from "@plasmicapp/react-web/lib/host";
 
 import CopyableEmailLink from "../../CopyableEmailLink"; // plasmic-import: uk1mkEl2emF5/component
+import MainContent from "../../MainContent"; // plasmic-import: CktnmCyKNbEc/component
 
 import { useScreenVariants as useScreenVariantsnZyqdRJghh2R } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: nZyqdRJghh2R/globalVariant
 
@@ -86,6 +87,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
   copyableEmailLink?: Flex__<typeof CopyableEmailLink>;
+  mainContent?: Flex__<typeof MainContent>;
 };
 
 export interface DefaultHomepageProps {}
@@ -362,6 +364,11 @@ function PlasmicHomepage__RenderFunc(props: {
             </Stack__>
             <div className={classNames(projectcss.all, sty.freeBox__oxj46)} />
           </div>
+          <MainContent
+            data-plasmic-name={"mainContent"}
+            data-plasmic-override={overrides.mainContent}
+            className={classNames("__wab_instance", sty.mainContent)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -369,8 +376,9 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "copyableEmailLink"],
-  copyableEmailLink: ["copyableEmailLink"]
+  root: ["root", "copyableEmailLink", "mainContent"],
+  copyableEmailLink: ["copyableEmailLink"],
+  mainContent: ["mainContent"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -378,6 +386,7 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   copyableEmailLink: typeof CopyableEmailLink;
+  mainContent: typeof MainContent;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -441,6 +450,7 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     copyableEmailLink: makeNodeComponent("copyableEmailLink"),
+    mainContent: makeNodeComponent("mainContent"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
