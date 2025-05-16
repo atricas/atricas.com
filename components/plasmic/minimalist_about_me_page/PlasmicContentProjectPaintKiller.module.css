@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: #131d24;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  background: url("/plasmic/minimalist_about_me_page/images/titelloses9320250515225802Png.png") left 50% top 50% / cover no-repeat;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 61.8vh;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.text {
+  max-width: 100%;
+  text-align: center;
+  font-family: "Impact";
+  font-size: 7em;
+  text-transform: uppercase;
+}

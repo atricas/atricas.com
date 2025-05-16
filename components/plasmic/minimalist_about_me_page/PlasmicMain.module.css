@@ -1,0 +1,173 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px 0%;
+}
+@media (min-width: 0px) and (max-width: 800px) {
+  .root {
+    padding: 64px 20px;
+  }
+}
+.mainHeaderAndFooter:global(.__wab_instance) {
+  max-width: 100%;
+}
+.freeBox__e88Kd {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  justify-self: flex-start;
+  background: none;
+  min-width: 0;
+}
+.freeBox__puvUv {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 61.8vh;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.freeBox__ie5Z {
+  display: flex;
+  background: url("/plasmic/minimalist_about_me_page/images/titelloses9320250515225802Png.png") left 50% top 50% / cover no-repeat;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 61.8vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 0;
+}
+.text__ewtWx {
+  max-width: 100%;
+  font-family: "Impact";
+  font-size: 7em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.text__m7Gsh {
+  max-width: 100%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5em;
+  text-transform: lowercase;
+  font-weight: 400;
+  color: #ffffff99;
+  text-align: center;
+}
+.freeBox__or94U {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 0px 19.1vw;
+}
+.freeBox__jYejS {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__jYejS > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.freeBox__jYejS > :global(.__wab_flex-container) > *,
+.freeBox__jYejS > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__jYejS > :global(.__wab_flex-container) > picture > img,
+.freeBox__jYejS
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.text__ntZFp {
+  position: relative;
+  font-family: "Comic Neue";
+  font-size: 2em;
+  font-weight: 700;
+  color: #00ff0bbf;
+}
+.text__zVe8V {
+  position: relative;
+  color: #c0cfcb;
+  font-family: "Alegreya", serif;
+  font-size: 2em;
+}
+.text___9Zg1U {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-size: 2em;
+  display: none;
+}
+.contentTitle:global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__sNk9 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 0px 1vh;
+}
+.freeBox__wA1BO {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  width: 100%;
+  grid-auto-rows: 25em;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px 9.5vw;
+}
+.freeBox___697Ip {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+}
+.newsCard:global(.__wab_instance) {
+  max-width: 100%;
+}
